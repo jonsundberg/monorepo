@@ -1,0 +1,9 @@
+{
+  "name": "sendease",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/sendease",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project sendease --web",
+  "targets": {}
+}
