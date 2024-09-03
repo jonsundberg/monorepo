@@ -60,7 +60,7 @@ REDIS_PASSWORD=your_redis_password_if_needed`
 
 6. Starta applikationen:
    ```bash
-   npm run start:dev
+   nx run api:serve:development
    ```
 
 ### Stoppa utvecklingsmiljön
