@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kooman/sendease-types": ["libs/shared-types/sendease/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

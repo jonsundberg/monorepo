@@ -1,0 +1,19 @@
+{
+  "name": "sendease-types",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-types/sendease/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared-types/sendease",
+        "main": "libs/shared-types/sendease/src/index.ts",
+        "tsConfig": "libs/shared-types/sendease/tsconfig.lib.json",
+        "assets": ["libs/shared-types/sendease/*.md"]
+      }
+    }
+  }
+}
